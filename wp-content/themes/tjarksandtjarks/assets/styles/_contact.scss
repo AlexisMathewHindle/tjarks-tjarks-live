@@ -1,0 +1,236 @@
+.contact-title {
+
+	h1 {
+		font: {
+			size: 46px;
+		}
+		color: $main-body-color;
+		line-height: 60px;
+	}
+
+}
+
+.contact-form {
+	width: 100%;
+	height: 900px;
+	background: $bg-color-second;
+	margin-top: 4em;
+
+	h2 {
+		padding: 60px 0 ;
+	}
+
+	form {
+	    margin: 0 auto;
+	    width: 100%;
+	    max-width: 700px;
+	    background: #edeff0;
+
+		p {
+			position: relative;
+		    margin: 0;
+    		padding: 0 0 1.5em;
+		}
+
+		.info {
+			outline: 0;
+		    display: block;
+		    margin: 0;
+		    padding: 22px 20px;
+		    width: 100%;
+		    height: 70px;
+		    color: #505050;
+		    font-size: 20px;
+		    border: 0;
+		}
+
+		select {
+		    background-image: url(../assets/icons/arrow.png);
+		    background-repeat: no-repeat;
+		    background-position: 95% 50%;
+		    background-color: #fff;
+	        position: relative;
+		    max-width: 700px;
+		    text-indent: 1px;
+		    -ms-appearance: none;
+		    -webkit-border-radius: 0;
+		    -moz-border-radius: 0;
+		    -ms-border-radius: 0;
+		    -o-border-radius: 0;
+		    border-radius: 0;
+	        outline: 0;
+		    display: block;
+		    margin: 0;
+		    padding: 22px 20px;
+		    width: 100%;
+		    height: 70px;
+		    color: #505050;
+		    font-size: 20px;
+		    border: 0;
+		    -webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+		    -webkit-appearance: none;
+		    -moz-appearance: none;
+		    -o-appearance: none;
+		    appearance: none;
+
+		}
+
+		textarea {
+		    outline: 0;
+		    display: block;
+		    margin: 0;
+		    padding: 22px 20px;
+		    width: 100%;
+		    height: 250px;
+		    line-height: 1.35;
+		    color: #505050;
+		    font-size: 20px;
+		    border: 0;
+		    -webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+		    -webkit-appearance: none;
+		    -moz-appearance: none;
+		    -o-appearance: none;
+		    appearance: none;
+		}
+
+		input[type=submit] {
+			display: inline-block;
+		    float: left;
+		    padding: 15px 65px;
+		    color: #484848;
+		    font-family: AkkuratBold,Helvetica,sans-serif;
+		    font-size: 14px;
+		    line-height: 1;
+		    text-transform: uppercase;
+		    background: 0 0;
+		    border: 1px solid #2e2f34;
+		    -webkit-appearance: none;
+		    -moz-appearance: none;
+		    -o-appearance: none;
+		    appearance: none;
+    	}
+	}
+
+	
+}
+
+
+.jobBoard-img {
+
+	img {
+		width: 100%;
+		height: auto;	
+	}
+	
+}
+
+.jobBoard-content {
+	padding: 4%;
+    padding-bottom: 130px;
+	background: $title-color;
+	height: 285px;
+	width: 100%;
+
+	h2 {
+		padding: 8.5px 20px;
+		color: $bg-color;
+	}
+
+	p {
+	    color: #fff;
+	    font-size: 20px;
+	    line-height: 1.6;
+	    max-width: 90%;
+	    padding-left: 20px;
+	}
+
+	button {
+		outline: 0;
+		 -webkit-appearance: none;
+	    -moz-appearance: none;
+	    -o-appearance: none;
+		appearance: none;
+	    display: block;
+	    background: transparent;
+	    float: left;
+	    margin-top: 40px;
+	    margin-left: 20px;
+	    padding: 15px 30px;
+	    font-size: 14px;
+	    color: #fff;
+	    line-height: 1;
+	    text-transform: uppercase;
+	    border: 1px solid #fff;
+	}
+}
+
+.positions {
+	height: 550px;
+	width: 100%;
+	background: $bg-color-second;
+
+	h2 {
+		padding: 60px;
+	}
+
+	h3 {
+		margin-left: 59px;
+		font: {
+			weight: 500;
+			family: $font-stack;
+		}
+	}
+
+	hr {
+		width: 100%;
+		max-width: 75%;
+		border: 1px solid $brand-color;
+		margin-bottom: 60px;
+	}
+	
+	#roleDes {
+		max-width: 60%;
+	}
+
+	p {
+		margin-left: 59px;
+		font: {
+			size: 18px;
+		}
+	}
+
+	a {
+		text-decoration: none;
+		color: $brand-color;
+	}
+
+	.role-one {
+		width: 100%;
+		max-width: 75%;
+		margin-left: 80px;
+		display: none;
+	}
+
+	.role-two {
+		width: 100%;
+		max-width: 75%;
+		margin-left: 80px;
+		display: none;
+	}
+
+	.role-three {
+		width: 100%;
+		max-width: 75%;
+		margin-left: 80px;
+		display: none;
+	}
+
+	.active-job {
+		display: block
+	}
+}
+

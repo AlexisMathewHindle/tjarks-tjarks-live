@@ -1,0 +1,491 @@
+/*
+  Theme Name: tjarketionandtjarks
+  Description: Additional Styles 
+  Author: 
+  Author URI: 
+  Version: 1.0
+  Template: tjarksandtjarks
+  Template Version: 1.0
+ 
+*/
+
+
+/*
+Add Your Custom CSS Below This Line
+*/
+
+.main_iframe .player .controls .play {
+    background: red !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .main_iframe {
+        display: none;
+    }
+    .video_secondary {
+        height: 400px;
+        width: 100%;
+        position: absolute;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    .video_img {
+        display: none;
+    }
+    .main_iframe {
+        position: absolute;
+    }
+    .img-responsive {
+        max-width: 100%;
+    }
+}
+
+.modal-backdrop {
+    position: relative;
+}
+
+
+/*@media only screen and (min-width: 375px) and (max-width: 667px) {
+      .section-one .left-container, .section-three .left-container {
+        height: auto !important; } }
+
+@media only screen and (min-width: 768px) {
+      .section-one .left-container, .section-three .left-container {
+        height: auto !important; } }
+*/
+
+
+/* @media only screen and (min-width: 375px) and (max-width: 667px) {
+      .footer .right-arrow {
+        margin-left: 110px !important; } }*/
+
+
+/*
+  .fullwidthImg {
+      background-image: url(http://geni-packaging.com/wordpress/wp-content/uploads/2016/12/clients-fill-6.jpeg);
+      height: 600px;
+      width: 100%;
+      background-size: cover;
+      /* background: red; */
+
+
+/* position: absolute;
+      top: 0;
+      left: 0;
+      background-repeat: no-repeat;*/
+
+
+/*}*/
+
+
+/* .fullImgHigh {
+      background-image: url(http://geni-packaging.com/wordpress/wp-content/uploads/2016/12/clients-fill-6.jpeg);
+      height: 900px;
+      width: 100%;
+      background-size: cover;*/
+
+
+/* background: red; */
+
+
+/*    position: absolute;
+      top: 0;
+      left: 0;
+      background-repeat: no-repeat;
+  }*/
+
+.team-buttons {
+    width: 16% !important;
+    display: inline-block;
+}
+
+.modal-dialog {
+    /*position: absolute;*/
+    /*top: 25%;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*margin: 0 auto;*/
+    position: absolute;
+    top: 47%;
+    -ms-transform: translate(0, -50%) !important;
+    transform: translate(0, -50%) !important;
+    -webkit-transform: translate(0, -50%) !important;
+    -moz-transform: translate(0%, -50%) !important;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.modal-content {
+    border: none;
+    box-shadow: none;
+}
+
+.modal-open .modal {
+    background-color: #000000;
+}
+
+.modal-body {
+    background: none;
+}
+
+
+/**-----start-logo--------**/
+
+.logo {
+    padding: 1em;
+    text-align: center;
+    padding: 1% 1% 3% 1%;
+}
+
+.logo h1 {
+    display: block;
+    padding: 2em 0em;
+}
+
+.logo span {
+    font-size: 2em;
+    color: #999;
+}
+
+.logo h3,
+.logo a {
+    color: #999;
+}
+
+.logo span img {
+    width: 40px;
+    height: 40px;
+    vertical-align: bottom;
+    margin: 0px 10px;
+}
+
+
+/**-----end-logo---------**/
+
+
+/**-----start-search-bar-section------**/
+
+.buttom {
+    background: url(../icons/404-bg.png) no-repeat 100% 0%;
+    background-size: 100%;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 556px;
+}
+
+.seach_bar {
+    padding: 5em;
+}
+
+.seach_bar p {
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 300;
+    margin: 2.6em 0em 0.9em 0em;
+}
+
+.seach_bar span a {
+    font-size: 1em;
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 300;
+    font-family: 'open_sansregular';
+}
+
+
+/**********search_box*************/
+
+.search_box {
+    background: #F1F3F6;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    padding: 6px 10px;
+    position: relative;
+    cursor: pointer;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: inset 0 0 5px rgba(156, 156, 156, 0.75);
+    -moz-box-shadow: inset 0 0 5px rgba(156, 156, 156, 0.75);
+    -webkit-box-shadow: inset 0px 0px 5px rgba(156, 156, 156, 0.75);
+}
+
+.search_box img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.search_box form input[type="text"] {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1em;
+    color: #999;
+    width: 100%;
+    font-family: 'open_sansregular';
+    -webkit-apperance: none;
+}
+
+.search_box form input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    background: url(../images/search.png) no-repeat 0px 1px;
+    position: absolute;
+    right: 0;
+    width: 34px;
+    height: 25px;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.search-img {
+    width: 20px;
+    height: 23px;
+    position: absolute;
+    left: 40px;
+}
+
+.search-field {
+    border: 1px #999 solid;
+    padding: 3px;
+}
+
+.leftSide_One img {
+    height: auto;
+    width: 100%;
+}
+
+.leftSide_Two img {
+    height: auto;
+    width: 100%;
+}
+
+.rightSide_One img {
+    height: auto;
+    width: 100%;
+}
+
+.rightSide_Two--top {
+    text-align: center;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.rightSide_Two--top img {
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.rightSide_Two--bottom {
+    text-align: center;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.rightSide_Two--bottom img {
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+
+/* JOB BOARDS ADDITIONAL CSS FOR ACTIVE JOBS */
+
+.js-active-jobs {
+    font-weight: bold !important;
+}
+
+.services-icon:hover p {
+    color: #f35c05;
+}
+
+.contact-title {
+    text-align: center;
+}
+
+
+/* CSS FOR SVG WIGGLE IN SERVICES PAGE SECONDARY MENU */
+
+.services-icon:hover a.outline {
+    border-bottom-color: transparent;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='Squiggle-svg' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 4'%3E%3Cstyle%3E.st0{animation:shift .5s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-50%);}}%3C/style%3E%3Cpath fill='none' stroke='#f0cbb6' stroke-width='1' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 1.5em;
+    background-size: auto 5px;
+    background-repeat: repeat-x;
+    padding-bottom: 13px;
+    text-decoration: none;
+    color: #f35c05;
+}
+
+a.outline {
+    font-size: 15px;
+    line-height: 15px;
+    color: #8F8F8F;
+    margin: 0 auto;
+    max-width: 90%;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 817px) {
+    .counter #infoNum h2 {
+        font-size: 1rem !important;
+    }
+}
+
+
+/* NOODLES SIGNATURE ON NEWS PAGES */
+
+.news-description img {
+    width: 100%;
+    height: auto;
+    max-width: 20vw;
+    margin: 0 auto;
+    display: block;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+    .news-description img {
+        max-width: 50%;
+    }
+}
+
+
+/* CENTERING OF NOODLES VIDEO MODAL */
+
+.modal {
+    text-align: center;
+    padding: 0!important;
+}
+
+.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+.modal-dialog {
+    top: 50% !important;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+    .modal-dialog {
+        top: 40% !important;
+    }
+}
+
+
+/* HIDING OF SECONDARY MENU FOR TEAM PAGE */
+
+.team-menu {
+    display: none !important;
+}
+
+
+/* ADDED CLASS & BG COLOR FOR 25 YEARS OF ALDI PAGE */
+
+.about {
+    background-color: #efefef;
+}
+
+
+/* ADD TO ROLES CSS */
+
+.role-four,
+.role-five {
+    display: none;
+}
+
+
+/* STYLING FOR LANGUAGE CHANGE IN FOOTER */
+
+
+/*.footer-flags li {
+    display: inline-block;
+}*/
+
+.flags {
+    max-width: 87px;
+    text-align: center !important;
+    display: none;
+    /* REMOVED UNTIL GERMAN VERSION COMPLETE */
+}
+
+.flags li {
+    display: inline-block !important;
+}
+
+
+/* STYLING FOR RIGHTS RESERVERD AND LANGUAGE PICKER IN FOOTER */
+
+#rightsReserved {
+    padding: 0 0 15px 0 !important;
+}
+
+#sitelang {
+    margin-left: -15px;
+    font-size: 12px;
+    padding: 15px 0 0;
+    display: none;
+    /* REMOVED UNTIL GERMAN VERSION COMPLETE */
+}
+
+#sitelang a {
+    display: inline-block;
+    font-size: 12px;
+}
+
+#menu-item-1953-en {
+    padding-right: 10px !important;
+}
+
+
+/* BUTTON STYLE EDIT ON MOBILE MENU */
+
+.all-workBtn a {
+    color: #484848;
+    font-family: "museo-sans", sans-serif, Helvetica, sans-serif;
+    font-size: 16px;
+    border: none;
+    background: none;
+}
+
+
+/* STYLE EDIT ON BLOCKQUOTES ON CLIENTS PAGE */
+
+blockquote footer:before {
+    content: '' !important;
+}
+
+blockquote h3 {
+    font-family: "museo-sans", sans-serif !important;
+}
+
+
+/* EDIT FOR BACKGROUND CONTAINER FOR JOB LISTINGS */
+
+@media only screen and (max-width: 500px) {
+    .position-row {
+        height: auto !important;
+        margin: 0 50px 75px;
+    }
+}

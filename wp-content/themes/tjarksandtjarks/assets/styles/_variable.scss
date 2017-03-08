@@ -1,0 +1,43 @@
+
+
+/*------------------------------*/
+/*       COLOR VARIABLES        */
+/*------------------------------*/
+
+$menu-hover : #c1c1c1;
+$main-body-color : #afafaf;
+$brand-color: #f35c05;
+$title-color : #393939;
+$bg-color: #ffffff;
+$bg-color-second: #edeff0;
+$bg-about: #efefef;
+$bg-headshot: #f6f6f6;
+
+/*------------------------------*/
+/*       FONT FAMILY            */
+/*------------------------------*/
+
+$font-stack: "museo-sans",sans-serif;
+$font-stack-second: "museo-sans",sans-serif;
+
+/*------------------------------*/
+/*       TYPOGRAPHY             */
+/*------------------------------*/
+
+h1, h2{
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+	padding: 0;
+	font: {
+		family: $font-stack !important;
+	}
+	color: $title-color;
+}
+
+p {
+	font: {
+		family: $font-stack-second;
+		size: 13px;
+	}
+	color: $main-body-color;
+}

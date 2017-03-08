@@ -1,0 +1,68 @@
+
+
+.heroProject {
+	// background: {
+	// 	image: url('../assets/img/client_fill_3.jpg');
+	// 	size: 100% 100%;
+	// 	repeat: no-repeat;
+	// }
+	// height: 600px;
+	// width: 100%;
+	.carousel-indicators {
+		display: none !important;
+	}
+	
+}
+
+#carousel-projectOne {
+	background: transparent url(../assets/img/client_fill_3.jpg);
+	background-size: cover;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+
+
+.project-about {
+	background: {
+		color: $bg-about;
+	}
+    width: 100%;
+    padding: 60px 14% 30px 14%;
+    margin: 0 auto;
+
+    h1, p {
+		text-align: center;
+		padding-bottom: 30px;
+	}
+
+	p {
+	    margin: 0 auto;
+	    line-height: 41px;
+	    // margin-bottom: 40px;
+	}
+}
+
+.projectFull {
+	background: {
+		image: url('../assets/img/client_fill_5.jpg');
+		repeat: no-repeat;
+		size: cover;
+	}
+	height: 600px;
+	width: 100%;
+
+	@media only screen and (max-width: 767px) {
+		margin-top: 372px;
+	}
+
+	@media only screen and (max-width: 500px) {
+		margin-top: 200px;
+	}
+}

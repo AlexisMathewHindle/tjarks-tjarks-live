@@ -1,0 +1,378 @@
+/*-----------------------------*/
+/*	 	ABOUT HERO CONTAINER   */
+/*-----------------------------*/
+
+.heroAbout {
+
+	.carousel-indicators {
+		display: none !important;
+	}
+	
+}
+
+#carousel-aboutOne {
+	background: transparent url(../assets/img/about-fill-1.png);
+	background-size: cover;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+/*-------------------------------------*/
+/*		FIRST ABOUT CONTAINER STYLE	   */
+/*-------------------------------------*/
+
+.about-main {
+	width: 100%;
+	height: 600px;
+	background: {
+		color: $bg-about;
+	}
+	padding: 60px;
+
+	@media only screen and (min-width: 799px) and (max-width: 989px) {
+		height: 700px;
+	}
+
+	@media only screen and (min-width: 600px) and (max-width: 799px) {
+		height: 750px;
+	}
+
+	@media only screen and (min-width: 460px) and (max-width: 600px) {
+		height: 900px;
+	}
+
+	@media only screen and (min-width: 400px) and (max-width: 460px) {
+		height: 980px;
+	}
+
+	@media only screen and (min-width: 300px) and (max-width: 400px) {
+		height: 1030px;
+	}
+
+	.about-title {
+		max-width: 75%;
+		display: block;
+		margin: 0 auto;
+		padding: 60px;
+		opacity: 0;
+
+		@media only screen and (min-width: 300px) and (max-width: 767px) {
+			padding: 0;
+			max-width: 100%;
+		}
+
+		h1 {
+			font: {
+				family: $font-stack;
+				size: 36px;
+				weight: 300;
+			}
+			color: $main-body-color;
+			letter-spacing: 2px;
+			
+		}
+	}
+	
+	.show-title {
+		opacity: 1;
+		transition: all 1.5s ease-in-out;
+	}
+
+	.about-content {
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+		padding: 25px;
+		opacity: 0;
+
+		p {
+			font: {
+				family: $font-stack-second;
+			}
+			color: $main-body-color;
+			// padding-bottom: 35px;
+		}
+	}
+
+	.show-content {
+		opacity: 1;
+		transition: all 1.5s ease-in-out;
+	}
+
+	hr {
+		border-top: 1px solid $bg-color;
+		max-width: 85%;
+		margin: 0 auto;
+	}
+
+	
+}
+
+.counter {
+	height: 200px;
+	width: 100%;
+	text-align: center;
+	position: relative;
+
+	.count {
+		font: {
+			family: $font-stack;
+			size: 6rem;
+
+			
+		}
+
+		@media only screen and (min-width: 300px) and (max-width: 767px) {
+	    		font-size: 3rem;
+	    	}
+	}
+
+	#infoNum {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+	    transform: translate(-50%, 40%); 
+
+	    @media only screen and (min-width: 300px) and (max-width: 767px) {
+	    	position: relative;
+	    	padding: 10px;
+	    	margin-right: 0;
+	    }
+
+	    h2 {
+	    	color: $main-body-color;
+	    	font: {
+	    		family: $font-stack-second;
+	    		size: 1.2rem;
+	    	}
+	    	text-transform: uppercase;
+
+	    	// @media only screen and (min-width: 300px) and (max-width: 767px) {
+	    	// 	font-size: 1.8rem;
+	    	// }
+	    }
+	}
+}
+
+/*-------------------------------------*/
+/*		SECOND ABOUT CONTAINER STYLE   */
+/*-------------------------------------*/
+
+.senior-content {
+	width: 100%;
+	height: 300px;
+	background: $bg-color;
+	text-align: center;
+	padding: 3% 29%;
+	position: relative;
+
+
+	h2  {
+		padding-bottom: 40px;
+
+	}
+
+	p {
+		margin-bottom: 40px;
+		padding-left: 100px;
+		padding-right: 100px;	
+		
+	}
+
+	.show-content {
+		opacity: 1;
+		transition: all 1.5s ease-in-out;
+	}
+	.show-title {
+		opacity: 1;
+		transition: all 1.5s ease-in-out;
+	}
+}
+
+.sliderContent {
+    max-width: 30%;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+/*-------------------------------------*/
+/*		THIRD ABOUT CONTAINER STYLE   */
+/*-------------------------------------*/
+
+.section-twoAbout {
+
+	.left-container {
+		width: 100%;
+		height: auto;
+		opacity: 0;
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.right-containerOne {
+		width: 100%;
+		height: auto;
+		opacity: 0;
+
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	.right-containerTwo {
+		width: 100%;
+		height: auto;
+		opacity: 0;
+
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
+
+
+/*-------------------------------------*/
+/*		THIRD ABOUT CONTAINER STYLE	   */
+/*-------------------------------------*/
+
+
+.section-threeAbout {
+	height: 300px;
+	width: 100%;
+	background-color: $bg-about;
+	padding-top: 100px;
+
+	.headshot-title {
+		display: block;
+		margin: 0 auto;
+		max-width: 50%;
+		opacity: 0;
+
+		@media only screen and (min-width: 300px) and (max-width: 767px) {
+			max-width: 100%;
+		}
+
+		h1 {
+			font: {
+				family: $font-stack;
+				size: 36px;
+				weight: 300;
+			}
+			color: $main-body-color;
+			letter-spacing: 2px;
+			
+		}
+
+	}
+
+	.show-title {
+		opacity: 1;
+		transition: all 1.5s ease-in-out;
+	}
+
+}
+
+.headshot-container {
+	width: 100%;
+	height: auto;
+	background: $bg-headshot;
+
+	.headshot-photo {
+		width: 100%;
+		height: auto;
+		opacity: 0;
+
+		img {
+			height: auto;
+			width: 100%;
+
+			@media only screen and (min-width: 300px) and (max-width: 992px) {
+				// padding-top: 40px;
+			}
+		}
+	}
+
+	.headshot-content {
+		padding: 0 60px 30px 60px;
+		color: $main-body-color;
+		height: 100%;
+		width: 100%;
+		opacity: 0;
+
+		h2 {
+			font: {
+				family: $font-stack-second;
+				size: 36px;
+				weight: 300;
+			}
+			padding-top: 40px;
+		}
+
+		h3 {
+			font: {
+				family: $font-stack-second;
+				weight: 600;
+			}
+			padding-bottom: 20px
+		}
+	}
+
+	
+}
+
+.totalTeam {
+	margin-top: 2em;
+
+	.about-btn {
+	    display: inline-block;
+	    float: left;
+	    padding: 15px 65px;
+	    color: #484848;
+	    font-family: $font-stack,Helvetica,sans-serif;
+	    font-size: 14px;
+	    line-height: 1;
+	    text-transform: uppercase;
+	    background: 0 0;
+	    border: 1px solid #2e2f34;
+	    -webkit-appearance: none;
+		-moz-appearance: none;
+		-o-appearance: none;
+		appearance: none;
+
+	}
+
+	h2 {
+		font: {
+			color: $bg-about;
+		}
+		text-align: center;
+	}
+
+	a {
+		text-decoration: none;
+		color: $main-body-color;
+		transition: all 0.5s ease-in-out;
+
+		&:hover {
+			text-decoration: none;
+			color: $brand-color;
+			transition: all 0.5s ease-in-out;
+		}
+	}
+}

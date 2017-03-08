@@ -1,0 +1,264 @@
+
+/*-----------------------------*/
+/*        SERVICES HERO  	   */
+/*-----------------------------*/	
+
+.heroServices {
+	// height: 600px;
+	// width: 100%;
+	// background: {
+	// 	image: url('../assets/img/Beach-House-3D-Visualisation-GENI-Design-Home.jpg');
+	// 	size: 100% 100%;
+	// 	repeat: no-repeat;
+	// }
+
+	#carousel-servicesOne {
+		background: transparent url(../assets/img/Beach-House-3D-Visualisation-GENI-Design-Home.jpg);
+		background-size: cover;
+
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		height: 100%;
+		background-repeat: no-repeat;
+		background-position: top center;
+	}
+
+}	
+
+/*-------------------------------------*/
+/*        SERVICES SECTION STYLES 	   */
+/*-------------------------------------*/
+
+#services {
+	background: #efefef;
+
+}	
+
+.section-oneServices {
+    // background:black;
+    // height: 600px;
+    // width: 100%;
+
+    a {
+    	cursor: pointer;
+    }
+
+    .services-about {
+    	background: #efefef;
+    	width: 100%;
+    	max-width: 70%;
+    	margin: 0 auto;
+    	display: block;
+    	padding-top: 60px;
+
+    	h2 {
+    		padding-bottom: 30px;
+    	}
+
+    	p {
+		    text-align: center;
+		    padding: 0 20px;
+		    margin: 0 auto;
+		    line-height: 41px;
+		    margin-bottom: 40px;
+    	}
+    }
+	
+
+	.services-icon {
+		width: 100%;
+		height: 100%;
+
+		img {
+			display: block;
+			margin: 0 auto;
+		}
+
+		p {
+			text-align: center;
+			padding: 20px 0 70px 0;
+		}
+	}
+
+}
+
+.services-list {
+	list-style-type: none;
+    margin: 5em auto;
+    padding: 0;
+    max-width: 72%;
+    // overflow: hidden;
+
+    // @media only screen and (max-width: 1500px) and (min-width: 1320px) {
+    // 	max-width: 86%;
+    // }
+
+    li {
+    	font: {
+    		family: $font-stack;
+    		size: 15px;
+    	}
+    	color: $main-body-color;
+    	display: inline-block;
+   		padding: 8px;
+   		float: none;
+   		transition: all 0.5s ease-in-out;
+
+   		&:hover {
+   			color: $brand-color;
+   			transition: all 0.5s ease-in-out;
+   		}
+    }
+}
+
+
+
+.section-twoServices {
+	
+	.servicesOne, .servicesTwo {
+		opacity: 0;
+		img {
+			width: 100%;
+			height: 100%;
+			
+		}
+
+	}
+	
+}
+
+#web, #visual {
+	background-color: $bg-about;
+}
+
+// .section-threeServices {
+// 	height: 452px;
+// 	width: 100%;
+// }
+
+.section-threeServices, .section-fiveServices, .section-sevenServices, .section-nineServices, .section-elevenServices, .section-thirteenServices, .section-fifteenServices, .section-seventeenServices {
+	background: $bg-about;
+	height: 452px;
+	width: 100%;
+
+	@media only screen and (min-width: 768px) and (max-width: 1024px) {
+		height: 900px;
+	}
+	
+	@media only screen and (min-width: 667px) and (max-width: 768px) {
+		height: 830px;
+	}
+
+	@media only screen and (min-width: 300px) and (max-width: 667px) {
+		height: 750px;
+	}
+	
+
+	.rightServices {
+		width: 100%;
+		height: auto;
+		background: $bg-about;
+		opacity: 0
+	}
+
+	img {
+		height: auto;
+		width: 100%;
+		margin: 0 auto;
+		display: block;
+	}
+
+	.leftServices, .servicesTen, .servicesTwelve, .servicesSixteen {
+		padding-top: 60px;
+		padding-right:60px;
+		padding-left: 60px;
+		padding-bottom: 22px;
+		background: $bg-about;
+		opacity: 0;
+
+		@media only screen and (min-width: 1200px) {
+			height: 452px;
+		}
+	}
+
+	.servicesNine {
+		opacity: 0;
+	}
+}
+
+.section-fourServices, .section-sixServices, .section-sevenServices, .section-eightServices, .section-tenServices, .section-twelveServices, .section-fourteenServices, .section-sixteenServices, .section-eighteenServices  {
+
+	.rightServices, .leftServices {
+		opacity: 0;
+	}
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+	
+	.servicesTwelve {
+		padding-top: 60px;
+		padding-right:60px;
+		padding-left: 60px;
+		padding-bottom: 22px;
+		background: $bg-about;
+		opacity: 0;
+
+		@media only screen and (min-width: 1200px) {
+			height: 452px;
+		}
+	}
+	
+	
+}
+
+// .section-fourServices {
+
+	// @media only screen and (min-width: 300px) and (max-width: 667px) {
+	// 	margin-top: 18em;
+	// }
+
+// }
+
+// .section-sixServices, .section-eightServices, .section-tenServices, .section-twelveServices, .section-fourteenServices, .section-sixteenServices, .section-eighteenServices, .section-eighteenServices  {
+	
+// 	@media only screen and (min-width: 300px) and (max-width: 667px) {
+// 		margin-top: 21em;
+// 	}
+
+// }
+
+.section-nineServices {
+
+	// .testiSlider {
+	// 	height: 300px;
+	// 	width: 100%;
+	// 	background-color: #f4f4f4;
+	// 	padding: 80px;
+	// }
+
+	// blockquote {
+	// 	border-left: none;
+	// }
+
+}
+
+
+.clientLogo {
+	height: 42%;
+	background-color: #f4f4f4;
+
+	h2 {
+		padding: 80px 0;
+	}
+
+	img {
+		width: 90%;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+	}
+}
