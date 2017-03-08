@@ -199,13 +199,14 @@ $roleFive_application	= get_field('roleFive_application');
 		</div>
 	</div>
 
+	<a id="footer"></a>
+
+	<div class="contact-footer" id="main-footer">
+
+		<?php get_footer(); ?>	
+
+	</div>
 
 </div>
 
-<a id="footer"></a>
 
-<div class="contact-footer" id="main-footer">
-
-	<?php get_footer(); ?>	
-
-</div>

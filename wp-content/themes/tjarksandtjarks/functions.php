@@ -154,7 +154,7 @@ function custom_scripts() {
 	// wp_enqueue_script( 'slick' );
 
 	wp_deregister_script( 'app' );
-	wp_register_script( 'app', '/wp-content/themes/tjarksandtjarks/assets/js/app.js', array( 'jquery' ), '1.0', true );
+	wp_register_script( 'app', '/wp-content/themes/tjarksandtjarks/assets/js/app-live.js', array( 'jquery' ), '1.0', true );
 	wp_enqueue_script( 'app' );
 
 	// wp_deregister_script( 'main' );

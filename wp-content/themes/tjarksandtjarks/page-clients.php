@@ -187,71 +187,141 @@ get_header(); ?>
 
 	</div>
 
-</div>
-
-<!-- QUOTE CONTAINER -->
-<div class="container">
-	
-	<div class="row">
+	<!-- QUOTE CONTAINER -->
+	<div class="container">
 		
-		<div class="col-sm-4">
+		<div class="row">
 			
-			<div class="block">
+			<div class="col-sm-4">
 				
-				<div class="block_quote">
+				<div class="block">
+					
+					<div class="block_quote">
+					
+					<blockquote>
+						<h3><?php echo $block_one ;?></h3>
+						<footer><?php echo $blockFooter_one ;?></footer>
+					</blockquote>
+
+				</div>
+
+				<div class="block_image">
+					
+					<img src="<?php echo $flipperImg_one['url'] ;?>" alt="<?php echo $flipperImg_one['alt'] ;?>" title="<?php echo $flipperImg_one['title'] ;?>" >
+
+				</div>
+
+				</div>
+
+			</div>
+
+			<div class="col-sm-4">
 				
-				<blockquote>
-					<h3><?php echo $block_one ;?></h3>
-					<footer><?php echo $blockFooter_one ;?></footer>
-				</blockquote>
+				<div class="block">
+					
+					<div class="block_quote block_quote--bg" title="<?php $flipperImg_two['title'];?>" style="background-image: url('<?php echo $flipperImg_two['url'] ;?>')">
+					
+					<blockquote>
+						<h3><?php echo $block_two ;?></h3>
+						<footer><?php echo $blockFooter_two ;?></footer>
+					</blockquote>
 
- 			</div>
+				</div>
 
- 			<div class="block_image">
- 				
- 				<img src="<?php echo $flipperImg_one['url'] ;?>" alt="<?php echo $flipperImg_one['alt'] ;?>" title="<?php echo $flipperImg_one['title'] ;?>" >
+				</div>
 
- 			</div>
+			</div>
+
+			<div class="col-sm-4">
+				
+				<div class="block">
+					
+					<div class="block_quote">
+					
+					<blockquote>
+						<h3><?php echo $block_threeHeader ;?></h3>
+						<footer><?php echo $blockFooter_three ;?></footer>
+					</blockquote>
+
+				</div>
+
+				<div class="block_image">
+					
+					<img src="<?php echo $flipperImg_three['url'] ;?>" alt="<?php echo $flipperImg_three['alt'] ;?>" title="<?php echo $flipperImg_three['title'] ;?>" >
+
+				</div>
+
+				</div>
 
 			</div>
 
 		</div>
 
-		<div class="col-sm-4">
-			
-			<div class="block">
-				
-				<div class="block_quote block_quote--bg" title="<?php $flipperImg_two['title'];?>" style="background-image: url('<?php echo $flipperImg_two['url'] ;?>')">
-				
-				<blockquote>
-					<h3><?php echo $block_two ;?></h3>
-					<footer><?php echo $blockFooter_two ;?></footer>
-				</blockquote>
 
- 			</div>
+		<div class="row">
+			
+			<div class="col-sm-4">
+				
+				<div class="block">
+					
+					<div class="block_quote">
+					
+					<blockquote>
+						<h3><?php echo $block_four ;?></h3>
+						<footer><?php echo $blockFooter_four ;?></footer>
+					</blockquote>
+
+				</div>
+
+				<div class="block_image">
+					
+					<img src="<?php echo $flipperImg_four['url'] ;?>" alt="<?php echo $flipperImg_four['alt'] ;?>" title="<?php echo $flipperImg_four['title'] ;?>" >
+
+				</div>
+
+				</div>
 
 			</div>
 
-		</div>
-
-		<div class="col-sm-4">
-			
-			<div class="block">
+			<div class="col-sm-4">
 				
-				<div class="block_quote">
+				<div class="block">
+					
+					<div class="block_quote">
+					
+					<blockquote>
+						<h3><?php echo $block_five ;?></h3>
+						<footer><?php echo $blockFooter_five ;?></footer>
+					</blockquote>
+
+				</div>
+
+				<div class="block_image">
+					
+					<img src="<?php echo $flipperImg_five['url'] ;?>" alt="<?php echo $flipperImg_five['alt'] ;?>" title="<?php echo $flipperImg_five['title'] ;?>" >
+
+				</div>
+					
+
+				</div>
 				
-				<blockquote>
-					<h3><?php echo $block_threeHeader ;?></h3>
-					<footer><?php echo $blockFooter_three ;?></footer>
-				</blockquote>
 
- 			</div>
+			</div>
 
- 			<div class="block_image">
- 				
- 				<img src="<?php echo $flipperImg_three['url'] ;?>" alt="<?php echo $flipperImg_three['alt'] ;?>" title="<?php echo $flipperImg_three['title'] ;?>" >
+			<div class="col-sm-4">
+				
+				<div class="block">
+				
+				<div class="block_quote block_quote--bg" title="<?php $flipperImg_six['title'];?>" style="background-image: url('<?php echo $flipperImg_six['url'] ;?>')">
+					
+					<blockquote>
+						<h3><?php echo $block_headerSix ;?></h3>
+						<footer><?php echo $blockFooter_six ;?></footer>
+					</blockquote>
 
- 			</div>
+				</div>
+
+				</div>
 
 			</div>
 
@@ -259,77 +329,9 @@ get_header(); ?>
 
 	</div>
 
-
-	<div class="row">
-		
-		<div class="col-sm-4">
-			
-			<div class="block">
-				
-				<div class="block_quote">
-				
-				<blockquote>
-					<h3><?php echo $block_four ;?></h3>
-					<footer><?php echo $blockFooter_four ;?></footer>
-				</blockquote>
-
- 			</div>
-
- 			<div class="block_image">
- 				
- 				<img src="<?php echo $flipperImg_four['url'] ;?>" alt="<?php echo $flipperImg_four['alt'] ;?>" title="<?php echo $flipperImg_four['title'] ;?>" >
-
- 			</div>
-
-			</div>
-
-		</div>
-
-		<div class="col-sm-4">
-			
-			<div class="block">
-				
-				<div class="block_quote">
-				
-				<blockquote>
-					<h3><?php echo $block_five ;?></h3>
-					<footer><?php echo $blockFooter_five ;?></footer>
-				</blockquote>
-
- 			</div>
-
- 			<div class="block_image">
- 				
- 				<img src="<?php echo $flipperImg_five['url'] ;?>" alt="<?php echo $flipperImg_five['alt'] ;?>" title="<?php echo $flipperImg_five['title'] ;?>" >
-
- 			</div>
-				
-
-			</div>
-			
-
-		</div>
-
-		<div class="col-sm-4">
-			
-			<div class="block">
-			
-			<div class="block_quote block_quote--bg" title="<?php $flipperImg_six['title'];?>" style="background-image: url('<?php echo $flipperImg_six['url'] ;?>')">
-				
-				<blockquote>
-					<h3><?php echo $block_headerSix ;?></h3>
-					<footer><?php echo $blockFooter_six ;?></footer>
-				</blockquote>
-
- 			</div>
-
-			</div>
-
-		</div>
-
-	</div>
-
 </div>
+
+
 <a id="footer"><a>
 
 <div class="clients-footer" id="main-footer">

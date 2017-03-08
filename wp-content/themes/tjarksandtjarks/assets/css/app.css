@@ -8390,6 +8390,56 @@ button.close {
 .slick-arrow.slick-hidden {
   display: none;
 }
+/*
+  Theme Name: tjarketionandtjarks
+  Description: Additional Styles 
+  Author: 
+  Author URI: 
+  Version: 1.0
+  Template: tjarksandtjarks
+  Template Version: 1.0
+ 
+*/
+
+/*
+Add Your Custom CSS Below This Line
+*/
+
+.main_iframe .player .controls .play {
+  background: red !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .main_iframe {
+    display: none;
+  }
+
+  .video_secondary {
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .video_img {
+    display: none;
+  }
+
+  .main_iframe {
+    position: absolute;
+  }
+
+  .img-responsive {
+    max-width: 100%;
+  }
+}
+
+.modal-backdrop {
+  position: relative;
+}
+
 /*@media only screen and (min-width: 375px) and (max-width: 667px) {
       .section-one .left-container, .section-three .left-container {
         height: auto !important; } }
@@ -8438,11 +8488,33 @@ button.close {
 }
 
 .modal-dialog {
+  /*position: absolute;*/
+  /*top: 25%;*/
+  /*left: 0;*/
+  /*right: 0;*/
+  /*margin: 0 auto;*/
   position: absolute;
-  top: 25%;
+  top: 47%;
+  -ms-transform: translate(0, -50%) !important;
+  transform: translate(0, -50%) !important;
+  -webkit-transform: translate(0, -50%) !important;
+  -moz-transform: translate(0%, -50%) !important;
   left: 0;
   right: 0;
   margin: 0 auto;
+}
+
+.modal-content {
+  border: none;
+  box-shadow: none;
+}
+
+.modal-open .modal {
+  background-color: #000000;
+}
+
+.modal-body {
+  background: none;
 }
 
 /**-----start-logo--------**/
@@ -8616,28 +8688,27 @@ button.close {
   height: auto;
 }
 
-   @media only screen and (max-width: 767px) {
-    .main_iframe {
-      display: none;
-    }
+/* JOB BOARDS ADDITIONAL CSS FOR ACTIVE JOBS */
 
-    .video_secondary {
-          height: 400px;
-          width: 100%;
-          position: absolute;
-          background-size: cover;
-      }
-  }
+.js-active-jobs {
+  font-weight: bold !important;
+}
 
-   @media only screen and (min-width: 767px) {
-    .video_img {
-      display: none;
-    }
+.services-icon:hover p {
+  color: #f35c05;
+}
 
-  }
+.contact-title {
+  text-align: center;
+}
 
-  .modal-backdrop {
-    position: relative;
-  }
-  
+/* CSS FOR SVG WIGGLE IN SERVICES PAGE SECONDARY MENU */
 
+.services-icon:hover a.outline {
+  border-bottom-color: transparent;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='Squiggle-svg' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 4'%3E%3Cstyle%3E.st0{animation:shift .5s linear infinite;}@keyframes shift {from {transform:translateX(0);
+}
+
+to {
+  transform: translateX(-50%);
+}

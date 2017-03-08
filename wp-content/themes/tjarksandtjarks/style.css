@@ -1112,7 +1112,6 @@ p {
     transition: all 0.5s ease-in-out;
 }
 
-
 .hero-scroll .carousel-inner #carousel-img--one {
     background-repeat: no-repeat;
     background-position: center center;
@@ -1561,6 +1560,12 @@ p {
     }
 }
 
+@media (min-width: 320px) and (max-width: 399px) {
+    .text-row {
+        padding: 70px 30px 70px;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 992px) {
     .text-row-split {
         padding: 40px 50px 0px;
@@ -1619,7 +1624,6 @@ p {
         padding: 100px 50px 120px;
     }
 }
-
 
 @media (max-width: 767px) {
     #home-section-two {
@@ -2549,11 +2553,11 @@ p {
 }
 
 .counter-aldi #infoNum {
-  margin-top: 20%;
+    margin-top: 20%;
 }
 
 .counter-aldi {
-  padding: 0 150px 0 150px;
+    padding: 0 150px 0 150px;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 767px) {
@@ -4020,7 +4024,7 @@ a.wiggle {
 }
 
 .page-template-page-aldi .text-row {
-  padding-bottom: 5% !important;
+    padding-bottom: 5% !important;
 }
 
 .tall-logo {
@@ -4057,17 +4061,14 @@ a.wiggle {
     .clients-logo img {
         padding: 50px;
     }
-
     .tall-logo {
         padding: 56px !important;
     }
-
     .tall-logo:nth-child(1),
     .tall-logo:nth-child(2),
     .tall-logo:nth-child(3) {
         padding: 54px !important;
     }
-
     .child-logo img:nth-child(2),
     .child-logo img:nth-child(14),
     .child-logo img:nth-child(41),
@@ -4093,11 +4094,9 @@ a.wiggle {
         padding: 50px;
         max-width: 32%;
     }
-
     .tall-logo {
         padding: 65px !important;
     }
-
     .child-logo img:nth-child(2),
     .child-logo img:nth-child(14),
     .child-logo img:nth-child(41),
@@ -4126,11 +4125,9 @@ a.wiggle {
     .page-template-page-aldi .clients-logo img {
         max-width: 33.3% !important;
     }
-
     .tall-logo {
         padding: 65px !important;
     }
-
     .child-logo img:nth-child(2),
     .child-logo img:nth-child(14),
     .child-logo img:nth-child(41),
@@ -4159,11 +4156,9 @@ a.wiggle {
     .page-template-page-aldi .clients-logo img {
         max-width: 50% !important;
     }
-
     .tall-logo {
         padding: 65px !important;
     }
-
     .child-logo img:nth-child(2),
     .child-logo img:nth-child(14),
     .child-logo img:nth-child(41),
@@ -4192,11 +4187,9 @@ a.wiggle {
     .page-template-page-aldi .clients-logo img {
         max-width: 50% !important;
     }
-
     .tall-logo {
         padding: 60px !important;
     }
-
     .child-logo img:nth-child(2),
     .child-logo img:nth-child(14),
     .child-logo img:nth-child(41),
@@ -4222,17 +4215,14 @@ a.wiggle {
         padding: 10%;
         max-width: 49%;
     }
-
     .tall-logo {
         padding: 40px !important;
     }
-
     .tall-logo:nth-child(1),
     .tall-logo:nth-child(2),
     .tall-logo:nth-child(3) {
         padding: 35px !important;
     }
-
     .child-logo img:nth-child(2),
     .child-logo img:nth-child(14),
     .child-logo img:nth-child(41),
@@ -4319,8 +4309,6 @@ a.wiggle {
     top: 0;
     left: 0;
 }
-
-
 
 @media (max-width: 1199px) {
     .block_quote h3 {
@@ -4557,6 +4545,9 @@ a.wiggle {
     .news-content .news-details h3,
     .news-details-single h3 {
         display: none;
+    }
+    .news-description {
+        text-align: center;
     }
     .news-content .news-details h4,
     .news-details-single h4 .news-content .news-description h2,
@@ -6354,10 +6345,16 @@ div.wpcf7-response-output {
     .project-footer,
     .team-footer,
     .contact-footer {
-        /*margin-top: 11em*/
-        ;
+        /*margin-top: 11em;*/
         position: relative;
-        /* height: 650px;*/
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .contact-footer {
+        position: relative;
+        height: 500px;
     }
 }
 
@@ -6533,6 +6530,12 @@ div.wpcf7-response-output {
     bottom: 0;
     top: 15%;
     margin: 0 auto;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 992px) {
+    .footer {
+        top: 5%;
+    }
 }
 
 .footer .panel {
@@ -6726,7 +6729,7 @@ body {
     }
 }
 
-#aldi-list{
+#aldi-list {
     font-size: 18px;
     color: #f68d39;
     line-height: 29px !important;
@@ -6734,7 +6737,7 @@ body {
 
 @media (max-width: 340px) {
     .hero-scroll .carousel-inner,
-    .video_image-new{
+    .video_image-new {
         min-height: 225px !important;
     }
 }

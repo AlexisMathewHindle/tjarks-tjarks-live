@@ -17,8 +17,8 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Founded in 1992, Tjarks and Tjarks specialise in design, artwork, digital illustration, web development, 3D visuals and consumer strategy">
-<meta property="og:title" content="Tjarks and Tjarks is a German-English design agency"/>
+<meta name="description" content="Tjarks and Tjarks specialise in design, artwork, digital illustration, web development, 3D visuals and consumer strategy">
+<meta property="og:title" content="Tjarks and Tjarks is an international design agency"/>
 <meta property="og:description" content="We have 25 years experience in creating highly innovative design"/>
 <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/tjarks_logo_tile_image.png" />
 <link rel="profile" href="http://gmpg.org/xfn/11">
@@ -69,46 +69,46 @@
 
               ;?>
 
-              <li class="<?php echo $_SERVER['REQUEST_URI'] ==  '/wordpress/en/' ?  'active' : ''  ?>">
+              <li class="<?php echo $_SERVER['REQUEST_URI'] ==  '/' ?  'active' : ''  ?>">
                 <a href="<?php bloginfo('url');?>">Home</a>
               </li>
-              <li class="<?php echo $_SERVER['REQUEST_URI'] ==  '/wordpress/en/about/' ?  'active' : ''  ?>">
+              <li class="<?php echo $_SERVER['REQUEST_URI'] ==  '/en/about/' ?  'active' : ''  ?>">
                 <a href="<?php bloginfo('url');?>/about">About</a>
               </li>
-              <li class="<?php echo $_SERVER['REQUEST_URI'] ==  '/wordpress/en/work/' ?  'active' : ''  ?>">
+              <li class="<?php echo $_SERVER['REQUEST_URI'] ==  '/en/work/' ?  'active' : ''  ?>">
                 <a href="<?php echo bloginfo('url');?>/work">Work</a>
               </li>
-              <li class="<?php echo $_SERVER['REQUEST_URI'] ==  '/wordpress/en/services/' ?  'active' : ''  ?>">
+              <li class="<?php echo $_SERVER['REQUEST_URI'] ==  '/en/services/' ?  'active' : ''  ?>">
                 <a href="<?php echo bloginfo('url');?>/services">Services</a>
               </li>
-              <li class="<?php echo $_SERVER['REQUEST_URI'] ==  '/wordpress/en/clients/' ?  'active' : ''  ?>">
+              <li class="<?php echo $_SERVER['REQUEST_URI'] ==  '/en/clients/' ?  'active' : ''  ?>">
                 <a href="<?php echo bloginfo('url');?>/clients">Clients</a>
               </li>
-              <li class="<?php echo $_SERVER['REQUEST_URI'] ==  '/wordpress/en/blog/' ?  'active' : ''  ?>">
+              <li class="<?php echo $_SERVER['REQUEST_URI'] ==  '/en/blog/' ?  'active' : ''  ?>">
                 <a href="<?php echo bloginfo('url');?>/news">News</a>
               </li>
-              <li class="<?php echo $_SERVER['REQUEST_URI'] ==  '/wordpress/en/contact/' ?  'active' : ''  ?>">
+              <li class="<?php echo $_SERVER['REQUEST_URI'] ==  '/en/contact/' ?  'active' : ''  ?>">
                 <a href="<?php echo bloginfo('url');?>/contact">Contact</a>
               </li>
 
               <?php }else{ ;?>
 
-              <li class="<?php echo $_SERVER['REQUEST_URI'] ==  '/wordpress/de/' ?  'active' : ''  ?>">
+              <li class="<?php echo $_SERVER['REQUEST_URI'] ==  '/de/' ?  'active' : ''  ?>">
                 <a href="<?php bloginfo('url');?>">Home</a>
               </li>
-              <li class="<?php echo $_SERVER['REQUEST_URI'] ==  '/wordpress/de/about/' ?  'active' : ''  ?>">
+              <li class="<?php echo $_SERVER['REQUEST_URI'] ==  '/de/about/' ?  'active' : ''  ?>">
                 <a href="<?php bloginfo('url');?>/ueberuns">Über uns</a>
               </li>
-              <li class="<?php echo $_SERVER['REQUEST_URI'] ==  '/wordpress/en/work/' ?  'active' : ''  ?>">
+              <li class="<?php echo $_SERVER['REQUEST_URI'] ==  '/de/work/' ?  'active' : ''  ?>">
                 <a href="<?php echo bloginfo('url');?>/portfolio">Projekte</a>
               </li>
-              <li class="<?php echo $_SERVER['REQUEST_URI'] ==  '/wordpress/en/services/' ?  'active' : ''  ?>">
+              <li class="<?php echo $_SERVER['REQUEST_URI'] ==  '/de/services/' ?  'active' : ''  ?>">
                 <a href="<?php echo bloginfo('url');?>/services-de">Dienstleistungen</a>
               </li>
-              <li class="<?php echo $_SERVER['REQUEST_URI'] ==  '/wordpress/en/clients/' ?  'active' : ''  ?>">
+              <li class="<?php echo $_SERVER['REQUEST_URI'] ==  '/de/clients/' ?  'active' : ''  ?>">
                 <a href="<?php echo bloginfo('url');?>/Kunden">Kunden</a>
               </li>
-              <li class="<?php echo $_SERVER['REQUEST_URI'] ==  '/wordpress/en/contact/' ?  'active' : ''  ?>">
+              <li class="<?php echo $_SERVER['REQUEST_URI'] ==  '/de/contact/' ?  'active' : ''  ?>">
                 <a href="<?php echo bloginfo('url');?>/kontakt">Kontakt</a>
               </li>
 
