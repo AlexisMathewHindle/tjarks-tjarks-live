@@ -42,7 +42,7 @@ get_header();?>
 							if(ICL_LANGUAGE_CODE == en) : ?>
 
 							<div class="text-row-split">
-								<p class="p-large">Please enter your password in the relevant box below to download the guidelines you require. Should you have a password query, please contact Hofer directly. Should you require any other assistance, please send an email to <a style="color: #f35c05; text-decoration: none;"href="mailto:styleguides@tjarksandtjarks.com">styleguides@tjarksandtjarks.com</a></p>
+								<p class="p-large">Please enter your password in the relevant box below to download the guidelines you require. Should you have a password query, please contact Hofer directly. Should you require any other assistance, please send an email to <a style="color: #f35c05; text-decoration: none;"href="mailo:styleguides@tjarksandtjarks.com">styleguides@tjarksandtjarks.com</a></p>
 							</div>
 
 							<? endif ;?>

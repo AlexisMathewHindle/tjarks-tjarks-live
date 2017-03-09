@@ -100,7 +100,7 @@ $roleFive_application	= get_field('roleFive_application');
 
 				<p><?php echo $jobBoard_content; ?></p>
 
-				<a href="mailto:careers@tjarksandtjarks.com."><button><?php echo $jobBoard_btn ;?></button></a>
+				<a href="mailto:careers@tjarksandtjarks.co.uk"><button><?php echo $jobBoard_btn ;?></button></a>
 			</div>
 				</div>
 		</div>

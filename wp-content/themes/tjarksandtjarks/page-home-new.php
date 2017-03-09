@@ -42,12 +42,12 @@ get_header(); ?>
   $third_title          = get_field('third_title');
   $third_subtitle       = get_field('third_subtitle');
 
-  $fourth_link           = get_field('fourth_link');
+  $fourth_link          = get_field('fourth_link');
   $fourth_image         = get_field('fourth_image'); 
   $fourth_title         = get_field('fourth_title');
   $fourth_subtitle      = get_field('fourth_subtitle');
 
-  $five_link           = get_field('five_link');
+  $five_link            = get_field('five_link');
   $five_image           = get_field('five_image');
   $five_title           = get_field('five_title');
   $five_subtitle        = get_field('five_subtitle');
@@ -169,9 +169,6 @@ get_header(); ?>
               <img src="<?php echo get_template_directory_uri();?>/assets/img/transparent.png" alt="">
 
               <?php if( get_field('homeslider_one') ): ?> 
-               
-                <!-- onclick="javascript:location.href='http://www.uol.com.br/'" -->
-                <!-- data-toggle="modal" data-target="#videoModal" -->
 
                 <div class="active item" id="carousel-img--one" title="<?php echo $homeslider_one['title'];?>" style="background-image: url('<?php echo $homeslider_one['url']; ?>')"></div>
              
@@ -423,7 +420,7 @@ get_header(); ?>
           </a>
           
             <div class="rightSide_Two">
-                  
+              
               <a href="<?php echo $fourth_link ;?>">
 
                 <div class="rightSide_Two--top">
@@ -462,8 +459,8 @@ get_header(); ?>
 
               </a>
 
-              <a href="<?php $five_link ;?>">
-
+              <a href="<?php echo $five_link ;?>">
+                
                 <div class="rightSide_Two--bottom">
                   
                   <img src="<?php echo $five_image['url'] ; ?>" alt="<?php echo $five_image['alt'] ; ?>" title="<?php echo $five_image['title'] ; ?>">

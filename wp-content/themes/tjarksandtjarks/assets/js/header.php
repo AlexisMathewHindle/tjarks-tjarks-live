@@ -15,11 +15,23 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+<script>
+   WebFontConfig = {
+      typekit: { id: 'ajk6gxq' }
+   };
+
+   (function(d) {
+      var wf = d.createElement('script'), s = d.scripts[0];
+      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+      wf.async = true;
+      s.parentNode.insertBefore(wf, s);
+   })(document);
+</script>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Tjarks and Tjarks specialise in design, artwork, digital illustration, web development, 3D visuals and consumer strategy">
 <meta property="og:title" content="Tjarks and Tjarks is an international design agency"/>
-<meta property="og:description" content="Design, artwork, illustration, web, 3D and consumer strategy specialists."/>
+<meta property="og:description" content="We have 25 years experience in creating highly innovative design"/>
 <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/tjarks_logo_tile_image.png" />
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
