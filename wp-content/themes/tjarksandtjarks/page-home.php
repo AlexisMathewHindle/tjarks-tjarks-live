@@ -477,7 +477,7 @@ get_header(); ?>
                 </div>
                 
 
-                <a href="#" id="video-modal" data-toggle="modal" data-target="#noodles-modal" data-theVideo="http://geni-packaging.com/wordpress/wp-content/themes/tjarksandtjarks/assets/video/Tjarks-and-Tjarks-Introduction.mp4">
+                <a href="#" id="video-modal" data-toggle="modal" data-target="#noodles-modal" data-theVideo="http://tjarksandtjarks.com/wp-content/themes/tjarksandtjarks/assets/video/Tjarks-and-Tjarks-Introduction.mp4">
 
                   <div class="right-container--two" id="rightSide-Two">
 

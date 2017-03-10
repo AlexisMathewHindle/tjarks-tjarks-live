@@ -26,7 +26,7 @@ if ($_SERVER['SERVER_NAME'] == 'tjarksandtjarks.com' || $_SERVER['SERVER_NAME'] 
 	$dbName = 'tjarksan_live';
 	$dbUser = 'tjarksan_live';
 	$dbPassword = 'Develop100%';
-	$dbHost = 'localhost';
+	$dbHost = 'tjarksandtjarks.com';
     define('WP_HOME','http://tjarksandtjarks.com/');
     define('WP_SITEURL','http://tjarksandtjarks.com/');    
 } else {

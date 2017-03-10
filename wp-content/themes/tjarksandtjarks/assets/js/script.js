@@ -1,10 +1,8 @@
-
-
 var theLanguage = $('html').attr('lang');
 
 if (window.location.href.indexOf("work") != -1) {
-    
-    if($('#geniNav li').hasClass('menu-item-object-custom')){
+
+    if ($('#geniNav li').hasClass('menu-item-object-custom')) {
         $('#menu-item-26').addClass('current-menu-item');
         console.log('This is work');
     }
@@ -143,23 +141,23 @@ $('a[href*="#"]:not([href="#"])').click(function() {
 
 $('#menu-icon').click(function() {
     $('.aside-container').toggle("slide", { direction: 'right' }, 800);
-    $('.aside-container').css('display','block');
+    $('.aside-container').css('display', 'block');
 
 });
 
 
-$(window).resize(function(){
+$(window).resize(function() {
 
-     var w = $(this).width();
-     if(w > 767){
+    var w = $(this).width();
+    if (w > 767) {
         console.log('larger than');
         $('.aside-container').fadeOut();
-        $('.page-content').css('display','block');
+        $('.page-content').css('display', 'block');
         $('.js-toggle-menu').removeClass('open');
-     }
+    }
 
 });
-   
+
 
 /*--------------------------------------------------------------*/
 /*     SCRIPT FOR FOR SHOW/HIDE MOBILE MENU ON CONTACT CLICK    */
@@ -185,11 +183,11 @@ $('.js-toggle-menu').click(function(e) {
 /*     SCRIPT FOR LANGUAGE ACTIVE COLOR CHANGE       */
 /*---------------------------------------------------*/
 
-if($('.lang-item-4').hasClass('current-lang')) {
+if ($('.lang-item-4').hasClass('current-lang')) {
     console.log('This is current lang');
     $('.lang-item-4 a').addClass('current-lang');
 } else {
-    $('.lang-item-7 a').css('color','#f35c05');
+    $('.lang-item-7 a').css('color', '#f35c05');
 }
 
 /*-----------------------------------------*/
@@ -213,8 +211,7 @@ $('.js-toggle-video').click(function(e) {
         $('.video-container').velocity('transition.slideDownBigIn');
         // $('.control').fadeIn('1000');
 
-        $('#heroCarousel').removeClass('index');
-        ;
+        $('#heroCarousel').removeClass('index');;
 
     }
 
@@ -295,7 +292,7 @@ $(function() {
     function parallax() {
         if ($(this).scrollTop() >= 280) {
             var st = $(this).scrollTop();
-            
+
             $('.hero-scroll').css({ top: Math.ceil(topPane.top + st * 0.4 - 111) });
             $('.section-one').css({ top: Math.ceil(bottomPane.top + st * 0.5) });
         } else {
@@ -346,7 +343,7 @@ $('.close').click(function() {
     playerNoodles.api('pause');
 });
 
-$('.modal').on('hidden.bs.modal', function () {
+$('.modal').on('hidden.bs.modal', function() {
     playerNoodles.api('pause');
 })
 
@@ -410,7 +407,7 @@ $(window).load(function() {
                 filter: '*',
                 layoutMode: 'fitRows',
                 masonry: {
-                  columnWidth: 50
+                    columnWidth: 50
                 }
 
             });
@@ -423,20 +420,20 @@ $(window).load(function() {
 });
 
 
-$(function(){
-  var $container = $('#Portfolio');
+$(function() {
+    var $container = $('#Portfolio');
 
-  $container.isotope({
-    itemSelector: '.portfolio-item',
-    layoutMode: 'fitRows',
-  });
+    $container.isotope({
+        itemSelector: '.portfolio-item',
+        layoutMode: 'fitRows',
+    });
 
-  $('#filters').on( 'click', 'a', function() {
-    var filterValue = $(this).attr('data-filter');
-    $('#filters a').removeClass('active');
-    $(this).addClass('active');
-    $container.isotope({ filter: filterValue });
-  });
+    $('#filters').on('click', 'a', function() {
+        var filterValue = $(this).attr('data-filter');
+        $('#filters a').removeClass('active');
+        $(this).addClass('active');
+        $container.isotope({ filter: filterValue });
+    });
 });
 
 /*-----------------------------------------------*/
@@ -461,8 +458,8 @@ $(window).load(function() {
                 percentPosition: true,
                 filter: '*',
                 masonry: {
-                  columnWidth: '.col-md-2',
-                  isFitWidth: true
+                    columnWidth: '.col-md-2',
+                    isFitWidth: true
                 }
             });
             return false;
@@ -533,7 +530,7 @@ if ($('#trigger-homeTitle').length > 0) {
 
         if (theLanguage == 'de-DE') {
 
-             $(function() {
+            $(function() {
 
                 $(".textChange").typed({
                     strings: ["verpackung", "branding", "web", "kreativ", "forschung"],
@@ -1478,8 +1475,8 @@ $(document).ready(function() {
         focusOnSelect: true,
         centerPadding: 0,
         pauseOnHover: true,
-        prevArrow: "<img class='a-left control-c prev slick-prev' src='http://geni-packaging.com/wordpress/wp-content/themes/tjarksandtjarks/assets/img/back_white.png'>",
-        nextArrow: "<img class='a-right control-c next slick-next' src='http://geni-packaging.com/wordpress/wp-content/themes/tjarksandtjarks/assets/img/forward_white.png'>",
+        prevArrow: "<img class='a-left control-c prev slick-prev' src='http://tjarksandtjarks.com/wp-content/themes/tjarksandtjarks/assets/img/back_white.png'>",
+        nextArrow: "<img class='a-right control-c next slick-next' src='http://tjarksandtjarks.com/wp-content/themes/tjarksandtjarks/assets/img/forward_white.png'>",
         responsive: [{
             breakpoint: 997,
             settings: {

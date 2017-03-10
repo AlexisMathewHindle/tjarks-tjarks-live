@@ -117,49 +117,9 @@ add_action( 'wp_enqueue_scripts', 'tjarksandtjarks_scripts' );
 // Register Script
 function custom_scripts() {
 
-	// wp_deregister_script( 'jquery' );
-	// wp_register_script( 'jquery', '//code.jquery.com/jquery-1.12.4.min.js', false, '1.12.4', true );
-	// wp_enqueue_script( 'jquery' );
-
-	// wp_deregister_script( 'jquery-ui' );
-	// wp_register_script( 'jquery-ui', '//code.jquery.com/ui/1.12.0/jquery-ui.js', array( 'jquery' ), '1.2', true );
-	// wp_enqueue_script( 'jquery-ui' );
-
-	// wp_deregister_script( 'jquery-migrate' );
-	// wp_register_script( 'jquery-migrate', '//code.jquery.com/jquery-migrate-1.2.1.min.js', array( 'jquery' ), '1.2.1', true );
-	// wp_enqueue_script( 'jquery-migrate' );
-
-	// wp_deregister_script( 'bootstrap' );
-	// wp_register_script( 'bootstrap', '//geni-packaging.com/wordpress/wp-content/themes/tjarksandtjarks/assets/js/bootstrap.min.js', array( 'jquery' ), '1.0', true );
-	// wp_enqueue_script( 'bootstrap' );
-
-	// wp_deregister_script( 'isotope' );
-	// wp_register_script( 'isotope', 'http://geni-packaging.com/wordpress/wp-content/themes/tjarksandtjarks/assets/js/isotope.pkgd.min.js', array( 'jquery' ), '1.0', true );
-	// wp_enqueue_script( 'isotope' );
-
-	// wp_deregister_script( 'ScrollMagic' );
-	// wp_register_script( 'ScrollMagic', '//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js', array( 'jquery' ), '1.0', true );
-	// wp_enqueue_script( 'ScrollMagic' );
-
-	// wp_deregister_script( 'velocity' );
-	// wp_register_script( 'velocity', '/wp-content/themes/tjarksandtjarks/assets/js/velocity.js', array( 'jquery' ), '1.0', true );
-	// wp_enqueue_script( 'velocity' );
-
-	// wp_deregister_script( 'velocity-ui' );
-	// wp_register_script( 'velocity-ui', 'wp-content/themes/tjarksandtjarks/assets/js/velocity.ui.js', array( 'jquery' ), '1.0', true );
-	// wp_enqueue_script( 'velocity-ui' );
-
-	// wp_deregister_script( 'slick' );
-	// wp_register_script( 'slick', '/wp-content/themes/tjarksandtjarks/assets/js/slick.min.js', array( 'jquery' ), '1.0', true );
-	// wp_enqueue_script( 'slick' );
-
 	wp_deregister_script( 'app' );
-	wp_register_script( 'app', '/wp-content/themes/tjarksandtjarks/assets/js/app-live.js', array( 'jquery' ), '1.0', true );
+	wp_register_script( 'app', '/wp-content/themes/tjarksandtjarks/assets/js/app.js', array( 'jquery' ), '1.0', true );
 	wp_enqueue_script( 'app' );
-
-	// wp_deregister_script( 'main' );
-	// wp_register_script( 'main', '//geni-packaging.com/wordpress/wp-content/themes/tjarksandtjarks/assets/js/script.js', array( 'jquery' ), '1.0', true );
-	// wp_enqueue_script( 'main' );
 	
 }
 add_action( 'wp_enqueue_scripts', 'custom_scripts' );

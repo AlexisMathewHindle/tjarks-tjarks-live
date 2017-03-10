@@ -14,99 +14,12 @@
 Add Your Custom CSS Below This Line
 */
 
-.main_iframe .player .controls .play {
-    background: red !important;
-}
-
-@media only screen and (max-width: 767px) {
-    .main_iframe {
-        display: none;
-    }
-    .video_secondary {
-        height: 400px;
-        width: 100%;
-        position: absolute;
-        background-size: cover;
-    }
-}
-
-@media only screen and (min-width: 767px) {
-    .video_img {
-        display: none;
-    }
-    .main_iframe {
-        position: absolute;
-    }
-    .img-responsive {
-        max-width: 100%;
-    }
-}
-
-.modal-backdrop {
-    position: relative;
-}
-
-
-/*@media only screen and (min-width: 375px) and (max-width: 667px) {
-      .section-one .left-container, .section-three .left-container {
-        height: auto !important; } }
-
-@media only screen and (min-width: 768px) {
-      .section-one .left-container, .section-three .left-container {
-        height: auto !important; } }
-*/
-
-
-/* @media only screen and (min-width: 375px) and (max-width: 667px) {
-      .footer .right-arrow {
-        margin-left: 110px !important; } }*/
-
-
-/*
-  .fullwidthImg {
-      background-image: url(http://geni-packaging.com/wordpress/wp-content/uploads/2016/12/clients-fill-6.jpeg);
-      height: 600px;
-      width: 100%;
-      background-size: cover;
-      /* background: red; */
-
-
-/* position: absolute;
-      top: 0;
-      left: 0;
-      background-repeat: no-repeat;*/
-
-
-/*}*/
-
-
-/* .fullImgHigh {
-      background-image: url(http://geni-packaging.com/wordpress/wp-content/uploads/2016/12/clients-fill-6.jpeg);
-      height: 900px;
-      width: 100%;
-      background-size: cover;*/
-
-
-/* background: red; */
-
-
-/*    position: absolute;
-      top: 0;
-      left: 0;
-      background-repeat: no-repeat;
-  }*/
-
 .team-buttons {
     width: 16% !important;
     display: inline-block;
 }
 
 .modal-dialog {
-    /*position: absolute;*/
-    /*top: 25%;*/
-    /*left: 0;*/
-    /*right: 0;*/
-    /*margin: 0 auto;*/
     position: absolute;
     top: 47%;
     -ms-transform: translate(0, -50%) !important;
@@ -309,22 +222,11 @@ Add Your Custom CSS Below This Line
 
 /* JOB BOARDS ADDITIONAL CSS FOR ACTIVE JOBS */
 
-.js-active-jobs {
-    font-weight: bold !important;
-}
-
-.services-icon:hover p {
-    color: #f35c05;
-}
-
-.contact-title {
-    text-align: center;
-}
-
 
 /* CSS FOR SVG WIGGLE IN SERVICES PAGE SECONDARY MENU */
 
-.services-icon:hover a.outline {
+
+/*.services-icon:hover a.outline {
     border-bottom-color: transparent;
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='Squiggle-svg' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 4'%3E%3Cstyle%3E.st0{animation:shift .5s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-50%);}}%3C/style%3E%3Cpath fill='none' stroke='#f0cbb6' stroke-width='1' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
     background-position: 0 1.5em;
@@ -342,7 +244,7 @@ a.outline {
     margin: 0 auto;
     max-width: 90%;
     text-decoration: none;
-}
+}*/
 
 @media only screen and (min-width: 767px) and (max-width: 817px) {
     .counter #infoNum h2 {

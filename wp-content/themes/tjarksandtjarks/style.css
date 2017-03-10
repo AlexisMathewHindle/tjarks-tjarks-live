@@ -56,15 +56,6 @@
 
 --------------------------------*/
 
-
-/*------------------------------*/
-
-
-/*     1.0 - GENERAL TYPE       */
-
-
-/*------------------------------*/
-
 a:hover,
 a:focus {
     text-decoration: none;
@@ -368,104 +359,11 @@ p {
     }
 }
 
-
-/*#mobile-content .mobile-content {*/
-
-
-/*background: #ffffff;*/
-
-
-/*width: 100%;*/
-
-
-/*height: auto; */
-
-
-/*padding: 100px 50px 100px;}*/
-
 @media only screen and (max-width: 767px) {
     #mobile-content {
         transition: all 0.5s ease-in-out;
     }
 }
-
-
-/*@media only screen and (min-width: 300px) and (max-width: 667px) {*/
-
-
-/*#mobile-content .mobile-content {*/
-
-
-/*padding: 70px 50px 110px;*/
-
-
-/*}*/
-
-
-/*}*/
-
-
-/*#mobile-content .mobile-content h1 {*/
-
-
-/*font-family: "museo-sans", sans-serif;*/
-
-
-/*font-size: 28px;*/
-
-
-/*color: #afafaf;*/
-
-
-/*line-height: 43px;*/
-
-
-/*padding-bottom: 43px;*/
-
-
-/*padding-right: 50px;*/
-
-
-/*padding-left: 50px;*/
-
-
-/*}*/
-
-
-/*#mobile-content .mobile-content p {*/
-
-
-/*font-family: "museo-sans", sans-serif;*/
-
-
-/*color: #afafaf;*/
-
-
-/*max-width: 87%;*/
-
-
-/*height: auto;*/
-
-
-/*margin: 0 auto;*/
-
-
-/*}*/
-
-
-/*@media only screen and (max-width: 500px) {*/
-
-
-/*#mobile-content .mobile-content p{*/
-
-
-/*max-width: 100%;*/
-
-
-/*}   */
-
-
-/*}*/
 
 
 /*------------------------------*/
@@ -1085,6 +983,12 @@ p {
     transition: all 0.5s ease-in-out;
 }
 
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+    .hero-scroll .carousel-inner {
+        min-height: 280px;
+    }
+}
+
 .hero-scroll .carousel-inner #carousel-img--one {
     background-repeat: no-repeat;
     background-position: center center;
@@ -1260,6 +1164,34 @@ p {
 
 /*-----------------------------*/
 
+@media only screen and (max-width: 767px) {
+    .main_iframe {
+        display: none;
+    }
+    .video_secondary {
+        height: 400px;
+        width: 100%;
+        position: absolute;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    .video_img {
+        display: none;
+    }
+    .main_iframe {
+        position: absolute;
+    }
+    .img-responsive {
+        max-width: 100%;
+    }
+}
+
+.modal-backdrop {
+    position: relative;
+}
+
 .player .rounded-box {
     background: orange !important;
     border-radius: .5em;
@@ -1294,7 +1226,7 @@ p {
     left: 0;
     background-size: cover;
     transition: 1s opacity;
-    background-image: url('http://geni-packaging.com/wordpress/wp-content/themes/tjarksandtjarks/assets/img/first_frame.png');
+    background-image: url('http://tjarksandtjarks.com/wp-content/themes/tjarksandtjarks/assets/img/first_frame.png');
     background-repeat: no-repeat;
 }
 
@@ -2891,7 +2823,7 @@ p {
 }
 
 .video_image-new {
-    background-image: url('http://geni-packaging.com/wordpress/wp-content/themes/tjarksandtjarks/assets/img/Tjarks-&-Tjarks-Nico-&-George-video.jpg');
+    background-image: url('http://tjarksandtjarks.com/wp-content/themes/tjarksandtjarks/assets/img/Tjarks-&-Tjarks-Nico-&-George-video.jpg');
     min-height: 340px;
     background-size: cover;
     background-position: center;
@@ -5427,7 +5359,7 @@ a.wiggle {
 }
 
 .contact-form form select {
-    background-image: url(http://geni-packaging.com/wordpress/wp-content/themes/tjarksandtjarks/assets/icons/arrow.png);
+    background-image: url(http://tjarksandtjarks.com/wp-content/themes/tjarksandtjarks/assets/icons/arrow.png);
     background-repeat: no-repeat;
     background-position: 95% 50%;
     background-color: #fff;
@@ -5982,7 +5914,7 @@ div.wpcf7-response-output {
 }
 
 .guidelinesContent-container form input[type=submit] {
-    background-image: url("http://geni-packaging.com/wordpress/wp-content/themes/tjarksandtjarks//assets/icons/arrow-rotate.png");
+    background-image: url("http://tjarksandtjarks.com/wp-content/themes/tjarksandtjarks//assets/icons/arrow-rotate.png");
     background-color: #5a5b5f;
     background-repeat: no-repeat;
     background-position: 6px 14px;
@@ -6456,6 +6388,12 @@ div.wpcf7-response-output {
     }
 }
 
+@media only screen and (max-width: 767px) {
+    #rightsReserved {
+        display: none;
+    }
+}
+
 .client-downloads {
     top: 120px;
     width: 100%;
@@ -6554,6 +6492,10 @@ div.wpcf7-response-output {
 
 .footer .social-icons .fa-linkedin {
     padding-right: 0;
+}
+
+.footer-mobile-display {
+    display: none;
 }
 
 @media only screen and (min-width: 375px) and (max-width: 667px) {

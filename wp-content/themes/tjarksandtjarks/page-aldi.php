@@ -41,14 +41,14 @@ $aldiContent	= get_field('aldiContent');
 						
 						
 
-							<div class="active item" id="carousel-workOne" title="<?php echo $workSlider_imgOne['title'];?>" style="background-image: url('http://geni-packaging.com/wordpress/wp-content/uploads/2017/01/25-years-aldi-profile.png')">    
+							<div class="active item" id="carousel-workOne" title="<?php echo $workSlider_imgOne['title'];?>" style="background-image: url('http://tjarksandtjarks.com/wp-content/uploads/2017/01/25-years-aldi-profile.png')">    
 							</div>
 
 					
 
 						
 
-							<div class="item" id="carousel-workTwo" title="<?php echo $workSlider_imgTwo['title'];?>" style="background-image: url('http://geni-packaging.com/wordpress/wp-content/uploads/2017/03/25-Year-Aldi-Nord-Design-Agency-Tjarks-and-Tjarks-Design-Feature.jpg')">
+							<div class="item" id="carousel-workTwo" title="<?php echo $workSlider_imgTwo['title'];?>" style="background-image: url('http://tjarksandtjarks.com/wp-content/uploads/2017/03/25-Year-Aldi-Nord-Design-Agency-Tjarks-and-Tjarks-Design-Feature.jpg')">
 							</div>
 
 					

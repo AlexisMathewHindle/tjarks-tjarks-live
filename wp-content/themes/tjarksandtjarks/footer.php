@@ -122,8 +122,8 @@
                    111 West Jackson Boulevard<br>
                    Suite 1700<br>
                    Chicago, IL 60604<br>
-                        <a href="tel:+13124832100" id="company-tel">+1 (0)312-675-6143</a>
-                        <a href="tel:+17738002782" id="company-tel">+1 (0)773 800 2782</a>
+                        <a href="tel:+13124832100" id="company-tel">+1 312-675-6143</a>
+                        <a href="tel:+17738002782" id="company-tel">+1 773 800 2782</a>
                     </address> 
 
                   </div>

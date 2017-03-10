@@ -577,7 +577,7 @@ get_header(); ?>
 
               <img src="<?php echo $sixth_image['url'] ; ?>" class="img-responsive" atl="<?php echo $sixth_image['alt'];?>" title="<?php echo $sixth_image['title'];?>">
 
-                <img style="position: absolute; top: 0; left: 0;" id="aldiImage" src="http://geni-packaging.com/wordpress/wp-content/uploads/2016/12/25-Year-Aldi-Nord-Design-Agency-Tjarks-and-Tjarks-Design-2.jpg" alt="image test" />
+                <img style="position: absolute; top: 0; left: 0;" id="aldiImage" src="http://tjarksandtjarks.com/wp-content/uploads/2016/12/25-Year-Aldi-Nord-Design-Agency-Tjarks-and-Tjarks-Design-2.jpg" alt="image test" />
 
 
                 <div class="overlay">
